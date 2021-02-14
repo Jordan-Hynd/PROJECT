@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+	<div Class="head">
+		<head>
+		<title>This Is My One Page Site</title>
+		</head>
+	</div>
+		<link rel="stylesheet" href="One_Page_Website_Stylesheet.css">
+<!-- START NAV -->
+<body>
+	<nav class="menu">
+		<ul>
+			<li><a href="#Home">Home</a></li>
+			<li><a href="#Gallery">Gallery</a></li>
+			<li><a href="#Video">Video</a></li>
+			<li><a href="#Contact">Contact Me</a></li>
+		</ul>
+	</nav>
+<!-- END NAV -->
+<div id="Home">
+	<body>
+	<h1>Adventures with my Nikon</h1>
+	<div class="p1">	
+	<p>A photo blog of my adventures.</p>
+	</div>
+</div>
+
+<!-- GALLERY -->
+	<div id="Gallery" class="row" align="center">
+		<div class="column">
+			<img src="./IMG/thumbnail_1.jpg">
+			<img src="./IMG/thumbnail_4.jpg">
+			<img src="./IMG/thumbnail_3.jpg">
+		</div>
+		<div class="column">
+			<img src="./IMG/thumbnail_2.jpg">
+			<img src="./IMG/thumbnail_5.jpg">
+			<img src="./IMG/thumbnail_6.jpg">	
+		</div>
+		<div class="column">
+			<img src="./IMG/thumbnail_7.jpg">
+			<img src="./IMG/thumbnail_8.jpg">
+			<img src="./IMG/thumbnail_9.jpg">
+		</div>
+	</div>
+<!-- END GALLERY -->
+
+<!-- VIDEO LINK-->
+<div id="Video" class="video">
+	<center><iframe width="560" height="315" src="https://www.youtube.com/embed/bT7RPVTiLjM" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><center>
+</div>
+<!-- END VIDEO LINK-->
+
+<!-- CONTACT FORM -->
+<div id="Contact" class="container">
+	<form action="#">
+
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+    <label for="country">Country</label>
+    <select id="country" name="country">
+      <option value="australia">USA</option>
+    </select>
+
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+    <input type="submit" value="Submit">
+
+	</form>
+</div>
+<!-- END CONTACT FORM -->
+</body>
+	<footer><center>
+	<p class="p2">Author: Jordan Hynd</p>	
+		<p><a href="mailto:jh.nw.photography@gmail.com" class="email">jh.nw.photography@gmail.com</a></p>
+	</center></footer>
+
+</html>
